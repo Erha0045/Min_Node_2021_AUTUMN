@@ -35,14 +35,18 @@ const three = 98;
 // Show in the console the avg. with 5 decimals
 
 
-
-
+const totalAverage = ((one + two + three)/3).toFixed(5);
+console.log(totalAverage);
 
 // --------------------------------------
 // Exercise 6 - Get the character by index
 
 const letters = "abc";
 // Get me the character "c"
+console.log(letters.charAt(2));
+console.log(letters[2]);
+console.log(letters.slice(2));
+
 
 
 
@@ -54,5 +58,5 @@ const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
 
-
+console.log(fact.replace("j","J"));
 // --------------------------------------
